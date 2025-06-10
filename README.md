@@ -7,8 +7,8 @@ A curated collection of artificial intelligence tools, resources, and research n
 This is part of a three-repository toolkit for comprehensive technology research and implementation:
 
 - **[ai-tools](.)** - AI/ML tools, models, frameworks, and research
-- **[dev-tools](../dev-tools)** - Development tools, frameworks, and utilities  
-- **[sec-tools](../sec-tools)** - Security tools, vulnerability research, and hardening resources
+- **[dev-tools (private) ](#)** - Development tools, frameworks, and utilities  - needs to be "de-personalized"
+- **[sec-tools (private) ](#)** - Security tools, vulnerability research, and hardening resources - same as above
 
 ## 🚀 Quick Start
 
