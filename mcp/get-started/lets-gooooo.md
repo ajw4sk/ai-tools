@@ -8,44 +8,16 @@ An intro guide to setting up powerful AI workflows using Model Context Protocol 
 
 Before diving in, make sure you have these tools installed:
 
-- **Python 3.10 or higher** - Required for most AI workflows
-- **Node.js** - For JavaScript-based AI tools and MCP servers
-- **UV Package Manager** - ⭐ **HIGHLY RECOMMENDED** ([Detailed Setup Guide](uv-quickstart.md)) 
+- **Python 3.10 or higher** - Required for most AI workflows 
+- **Node.js** - For JavaScript-based AI tools and MCP servers **Detailed Setup Guide Coming Soon**
+- **UV Package Manager** - Python & virtual environment management ⭐ **HIGHLY RECOMMENDED** ([Detailed Setup Guide](uv-quickstart.md)) 
 
-### UV Installation & Setup (Personal Recommendation)
-
-If you've never used UV, go to: https://docs.astral.sh/uv/getting-started/installation/
-
-UV is implemented in Rust by Astral and is **by far the best Python package manager I've used**. 
+## 🔍 Check if you've got what you need
 
 ```bash
-# Recommended installation method - simple curl
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# Check if UV is installed and get version
+uv --version
 ```
-
-**Alternative installation methods available:**
-- pip
-- Cargo  
-- Homebrew
-- Scoop
-- Docker
-- Winget
-- GitHub releases
-
-But honestly, just do the curl request - it's straightforward.
-
-### Important UV Setup Tips
-
-**Enable Shell Auto-Completion** - This is a game changer! 
-- Instructions are on the installation page towards the bottom
-- It gives you guidance on figuring out what shell you're using if you don't know
-- Just put it into your shell configuration
-- Makes the experience way easier
-
-**Take 15 minutes to explore UV** if you've never seen it before:
-- Run through the scripts and guides - it's a little different but worth it
-- Tools like UVX let you invoke tools without installing them in the virtual environment
-- Much easier virtual environment and package management
 
 📚 **Detailed UV Guide**: Check out my comprehensive [UV Quick Guide](uv-quickstart.md) with code examples, shell aliases, and workflow optimizations!
 
@@ -85,14 +57,16 @@ Create a folder structure that will house both server and client implementations
    - If you're not a Python expert, this can throw you off
 
 2. **Create virtual environment**:
-   ```bash
+
+   ```
+   bash
    cd /mcp/mcp-server
    uv venv
    source .venv/bin/activate
    uv add anthropic-mcp-server
-   # Install other dependencies as needed
+   
    ```
-
+# Install other dependencies as needed
 3. **Start the server**:
    ```bash
    python weather.py
@@ -102,8 +76,7 @@ Create a folder structure that will house both server and client implementations
 
 1. **Config file setup**: Follow the directions for the config file in Claude Desktop
 2. **Use absolute paths** for both:
-   - UV (should be in your `.local` directory)
-   - The `weather.py` file you just created
+   - The directory the `weather.py` file you just created is located within
 
 3. **Critical restart sequence**: After you save the config file and have already exited Claude:
    - **Don't start Claude back up yet!**
