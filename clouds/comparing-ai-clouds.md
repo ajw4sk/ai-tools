@@ -1,4 +1,6 @@
-# ☁️ GetDeploying - Cloud GPU Comparisons
+# ☁️ AI Clouds and Cloud Service Providers' AI Offerings 
+
+## GetDeploying - Cloud GPU Comparisons
 
 The [GetDeploying Cloud GPU Reference](https://getdeploying.com/reference/cloud-gpu#amazon-web-services) is a resource that compares major cloud GPU providers, including AWS, Google Cloud, Azure, and niche platforms like RunPod and Lambda Labs.
 
