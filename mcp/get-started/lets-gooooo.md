@@ -1,4 +1,4 @@
-# Getting Into AI Workflows Very Quickly
+# MCP Quickstart
 
 An intro guide to setting up powerful AI workflows using Model Context Protocol (MCP) and modern development tools.
 
