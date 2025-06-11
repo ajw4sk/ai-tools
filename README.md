@@ -12,42 +12,37 @@ This is part of a three-repository toolkit:
 
 ## 📂 Table of Contents
 ### 🧠 [LLM (Large Language Models)](LLM)
-### ☁️ [AI Clouds](ai-clouds)
-### 💻 [AI Development](ai-ide)
-### 🤖 Coding Assistants
-### 🔒 Cybersecurity
-### 🔧 Hardware
-### 🔌 MCP (Model Context Protocol) ⭐ **HOT**
-### 🧪 Testing
+### ☁️ [AI Clouds](clouds)
+### 🔒 Cybersecurity(cybersecurity)
+### 💻 [AI Development](dev)
+### 🔧 [Hardware](hardware)
+### 🔌 [MCP (Model Context Protocol)](mcp)
+### ⭐ [RAG (Retrieval-Augmented Generation)](rag)
+### 📜 [Legal and Regulatory](regulations)
+### 🧪 [Testing](testing)
 
-## To-Do List
-### Target Completion Date: Sunday 2025-06-15
+## [To-Do List](todos.md)
+### Up Next:
+**Sunday 2025-06-15**
 - Finish getting bookmarks and other sources into repo with AI-generated content summaries
 - Used AI to generate a lot of content - Un-AI some of it and check it for completeness
 - Add Privacy & Standards dirs with resources to ISO, NIST, EU, and other stadards, DPIA templates, toolkits, etc
 - Build out content with other AI concepts/products/types RAG, Virtual Assistants, Chatbots, Agents, LCM, LAM, VLM, SLM, MLM, etc
-### Target Completion Date: Sunday 2025-06-22
-- Add learning path resources roadmap.sh, aws/azure certs, ai programs, etc.  Target completion date: 2025-06-30
-- pull all tutorial instructions from the tutorial so there's no switching back and forth.  Target completion date: 2025-06-15
-- Add local LLM model info and instructions.  
-- Add dotfile for all of the AI tools from this repo that can be installed by homebrew/winget and refernce them in repo where applicable. Target completion date: 2025-06-21
-- Add info identifying the parts of products that are related to MCP, and maybe that's mostly MCP clients.  For example, the Cursor setting, Claude Desktop setting, Docker Desktop Catalog, etc.  Target completion date: 2
-### Target Completion Date: Sunday 2025-06-25
-- 
 
 ## Model Context Protocol Quick Start
 
 **[MCP Get Started](mcp/get-started/lets-gooooo.md)** 
 
 Covers:
-- Setup UV - [UV Quick Guide](mcp/get-started/uv-quickstart.md)
-- Model Context Protocol (MCP) Walkthrough 
+- MCP Intro
+- Setup dependencies
+- [MCP Server/Client Implementation Walkthrough](mcp/get-started/uv-quickstart.md) 
 Contains:
 - Personal recos/troubleshooting tips
 - Links to MCP Resources
 Expects:
 - A basic but decent understanding of ChatGPT, Gemini, Claude
-- You can jump on the commandline and install node.js 
+- You can or are willing to jump on the commandline and install node.js 
 
 ## Purpose
 
@@ -59,36 +54,28 @@ I use raindrop.io, raycast, and safari/firefox profiles for staying organized an
 - **Reference Library**: Quick access to AI tools and resources across different categories
 
 I try to stick to this flow:
+
 *Discovery → Bookmark → Research & Document → Disseminate Initial Findings → Document Feedback & Apply Others' Exp's → Evaluate & Document → Implement → Document (some more)*
-Even with the right tools, yes, that process was still annoying and impossible to do every step each time. However, AI is making this almost trivial.  
 
-## 📂 Table of Contents
-### 🧠 LLM (Large Language Models)
-### ☁️ AI Clouds
-### 💻 AI IDE
-### 🤖 Coding Assistants
-### 🔒 Cybersecurity
-### 🔧 Hardware
-### 🔌 MCP (Model Context Protocol) ⭐ **HOT**
-### 🧪 Testing
-## 🏆 Personal Recommendations
-
+Even with the right tools, yes, that process was still annoying and impossible to do every step each time. However, AI is changing that as we speak.  
 
 ### Learning Path Resources
 If you have any info about how you do or have done these types of things, please send it my way!
 1. **Start**: [MCP tutorial](mcp/get-started/lets-gooooo.md) #Add OpenAI Agent tutorial
 2. **Practice**: coming soon
-3. **Alternative**: when it comes to pricing - coming soon
-4. [**Protect**](cybersecurity): Cybersecurity resources and information
-5. **Develop**: | Setup - requirements.txt, dotfiles, coming soon | [Code] (ai-ide) |
-6. **Demo**: Presentation templates to various stakeholders
-7. **Scale**: Translate successful prototypes to production languages
+3. **Alternative**: when it comes to tradeoffs/pricing - coming soon
+4. **Protect**: [Cybersecurity resources and information](cybersecurity)
+5. **Develop**: | Setup - requirements.txt, dotfiles, coming soon | [Code](ide) |
+6. **Demo**: Presentation templates to various stakeholders - coming soon
+7. **Scale**: Coming soon
 
 ### Standout MCP Implementations - June 9th to June 15 2025
-- **Figma MCP** - Just released, will change development workflows
-- **HubSpot MCP** - Game changer for sales teams
-- **AWS MCP Suite** - Comprehensive coordination platform
+
+- **[Figma MCP](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/)** - Just released, will change development workflows
+- **[HubSpot MCP](https://developers.hubspot.com/mcp)** - Game changer for sales teams
+- **[AWS MCP Suite]()** - Comprehensive coordination platform
 - **Slack Integration** - Enterprise-ready chat interfaces
+  
 Every week, I'll swap these out with some cool ones I saw that specific week
 
 ### Adding Content
@@ -113,7 +100,7 @@ Ideas (not reqs) for your content:
 - Document dependencies and requirements
 - Extra points for personal experiences that could save others' time
 - Note any applicable regulatory, privacy, and/or security considerations or limitations
-- Include linked text in brackets followed by URL in parans for external links.  Internal links are optional
+- Include linked text in brackets followed by URL in parans for links
 
 ```
 [dsiplay text](URL)
