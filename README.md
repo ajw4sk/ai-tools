@@ -1,170 +1,124 @@
 # AI Tools Repository
 
-A curated collection of artificial intelligence tools, resources, and research notes. This repository serves as an intelligent bookmark system and knowledge base for AI technologies, implementations, and discoveries.
+This repo is a curated collection of artificial intelligence tools, resources, and research notes. This repository serves as an intelligent bookmark system and knowledge base for AI technologies, implementations, and discoveries.  
 
 ## 🔗 Related Repositories
 
-This is part of a three-repository toolkit for comprehensive technology research and implementation:
+This is part of a three-repository toolkit:
 
-- **[ai-tools](.)** - AI/ML tools, models, frameworks, and research
-- **[dev-tools (private) ](#)** - Development tools, frameworks, and utilities  - needs to be "de-personalized"
+- **[ai-tools](.)** - AI/ML tools, models, frameworks, and research - brand new repo (so if you see any errors let me know!)
+- **[dev-tools (private) ](#)** - Development tools, frameworks, and utilities to support productivity and efficiency  - needs to be "de-personalized"
 - **[sec-tools (private) ](#)** - Security tools, vulnerability research, and hardening resources - same as above
 
-## 🚀 Quick Start
+## 📂 Table of Contents
+### 🧠 [LLM (Large Language Models)](LLM)
+### ☁️ [AI Clouds](ai-clouds)
+### 💻 [AI Development](ai-ide)
+### 🤖 Coding Assistants
+### 🔒 Cybersecurity
+### 🔧 Hardware
+### 🔌 MCP (Model Context Protocol) ⭐ **HOT**
+### 🧪 Testing
 
-**New to AI workflows?** Start here: **[Getting Into AI Workflows Very Quickly](mcp/get-started/lets-gooooo.md)** 
+## To-Do List
+### Target Completion Date: Sunday 2025-06-15
+- Finish getting bookmarks and other sources into repo with AI-generated content summaries
+- Used AI to generate a lot of content - Un-AI some of it and check it for completeness
+- Add Privacy & Standards dirs with resources to ISO, NIST, EU, and other stadards, DPIA templates, toolkits, etc
+- Build out content with other AI concepts/products/types RAG, Virtual Assistants, Chatbots, Agents, LCM, LAM, VLM, SLM, MLM, etc
+### Target Completion Date: Sunday 2025-06-22
+- Add learning path resources roadmap.sh, aws/azure certs, ai programs, etc.  Target completion date: 2025-06-30
+- pull all tutorial instructions from the tutorial so there's no switching back and forth.  Target completion date: 2025-06-15
+- Add local LLM model info and instructions.  
+- Add dotfile for all of the AI tools from this repo that can be installed by homebrew/winget and refernce them in repo where applicable. Target completion date: 2025-06-21
+- Add info identifying the parts of products that are related to MCP, and maybe that's mostly MCP clients.  For example, the Cursor setting, Claude Desktop setting, Docker Desktop Catalog, etc.  Target completion date: 2
+### Target Completion Date: Sunday 2025-06-25
+- 
 
-This comprehensive guide covers:
-- Environment setup with UV (the best Python package manager) + [UV Quick Guide](mcp/get-started/uv-quickstart.md)
-- Model Context Protocol (MCP) tutorial with real implementations
-- Personal recommendations and troubleshooting tips
-- Enterprise MCP implementations from major players
+## Model Context Protocol Quick Start
 
-## 📋 Purpose
+**[MCP Get Started](mcp/get-started/lets-gooooo.md)** 
 
-This repository functions as a hybrid between Raindrop.io and GitLab, but with enhanced documentation and implementation tracking. It serves as:
+Covers:
+- Setup UV - [UV Quick Guide](mcp/get-started/uv-quickstart.md)
+- Model Context Protocol (MCP) Walkthrough 
+Contains:
+- Personal recos/troubleshooting tips
+- Links to MCP Resources
+Expects:
+- A basic but decent understanding of ChatGPT, Gemini, Claude
+- You can jump on the commandline and install node.js 
+
+## Purpose
+
+I use raindrop.io, raycast, and safari/firefox profiles for staying organized and accessing information from different sources quickly, while still being able to maintain all windows and tabs open while research projects.  I also use raycast and macOS shortcuts for moving on from a subject when its timebox is over.  I tried using Bear notes app to handle what these repos do, but it was easier to have a checkout of this in the next directory over.  Using the filesystem MCP server you'll see from the MCP Quickstart just made it even easier.
 
 - **Research Queue**: Bookmarked sites and tools that warrant deeper investigation
-- **Knowledge Base**: Detailed notes on tools that have been evaluated or implemented
+- **Knowledge Base**: Notes on tools that have been evaluated or implemented
 - **Implementation Log**: Documentation of actual deployments, configurations, and lessons learned
 - **Reference Library**: Quick access to AI tools and resources across different categories
 
-The workflow: *Discovery → Bookmark → Research → Evaluate → Implement → Document*
+I try to stick to this flow:
+*Discovery → Bookmark → Research & Document → Disseminate Initial Findings → Document Feedback & Apply Others' Exp's → Evaluate & Document → Implement → Document (some more)*
+Even with the right tools, yes, that process was still annoying and impossible to do every step each time. However, AI is making this almost trivial.  
 
-## 📂 Current Directory Structure
-
+## 📂 Table of Contents
 ### 🧠 LLM (Large Language Models)
-```
-LLM/
-├── huggingface/          # Hugging Face platform and models
-├── models/               # Model-specific documentation
-│   ├── google/          # Gemini and other Google models
-│   ├── meta/            # Llama and Meta AI models
-│   └── openai/          # ChatGPT and OpenAI API resources
-└── training/            # Training data and methodologies
-```
-
 ### ☁️ AI Clouds
-```
-ai-clouds/
-├── comparing-ai-in-clouds.md    # Cloud AI service comparisons
-└── runpod.md                    # RunPod GPU cloud platform
-```
-
 ### 💻 AI IDE
-```
-ai-ide/
-└── ai-ide.md                    # AI-powered development environments
-```
-
 ### 🤖 Coding Assistants
-```
-coding-assistants/
-└── cognition-ai.md              # Cognition AI and similar tools
-```
-
 ### 🔒 Cybersecurity
-```
-cybersecurity/
-├── ai-incident-database.md      # AI security incident tracking
-├── ai-risk.md                   # AI risk assessment and mitigation
-└── owasp-llm-genai-security.md  # OWASP AI/LLM security guidelines
-```
-
 ### 🔧 Hardware
-```
-hardware/
-└── ai-hardware.md               # AI-specific hardware and infrastructure
-```
-
 ### 🔌 MCP (Model Context Protocol) ⭐ **HOT**
-```
-mcp/
-├── enterprise/
-│   └── hubspot-mcp.md          # HubSpot MCP integration
-├── get-started/
-│   ├── lets-gooooo.md          # 🚀 COMPREHENSIVE GETTING STARTED GUIDE
-│   └── uv-quickstart.md        # UV Package Manager with examples & aliases
-└── tools/
-    ├── coding/                 # MCP coding tools
-    ├── frontend/               # Frontend component building
-    ├── memory/                 # Knowledge graph and memory servers
-    └── web-searching/          # Search and mapping tools
-```
-
-**Why MCP is Hot**: The ecosystem is exploding! Major players (GitHub, AWS, GitLab, Slack, HubSpot) all have MCP servers. This is the future of AI integration.
-
 ### 🧪 Testing
-```
-testing/
-├── benchmarking/
-│   └── what-is-benchmarking.md # AI model benchmarking methodologies
-└── weights-and-bias/
-    └── weights-and-bias-dev-platform.md # W&B development platform
-```
-
 ## 🏆 Personal Recommendations
 
-### Must-Have Tools
-- **UV Package Manager** - Best Python package manager, implemented in Rust
-- **Claude Desktop** - Essential for MCP integration
-- **MCP Protocol** - Start with the getting started guide above
 
-### Learning Path
-1. **Start**: [Complete MCP tutorial](mcp/get-started/lets-gooooo.md)
-2. **Practice**: GitHub MCP + Copilot Pro (budget permitting)
-3. **Alternative**: Free tier Gemini, Claude, or ChatGPT
-4. **Develop**: Practice outside production with Python
-5. **Demo**: Present to product and architecture teams
-6. **Scale**: Translate successful prototypes to production languages
+### Learning Path Resources
+If you have any info about how you do or have done these types of things, please send it my way!
+1. **Start**: [MCP tutorial](mcp/get-started/lets-gooooo.md) #Add OpenAI Agent tutorial
+2. **Practice**: coming soon
+3. **Alternative**: when it comes to pricing - coming soon
+4. [**Protect**](cybersecurity): Cybersecurity resources and information
+5. **Develop**: | Setup - requirements.txt, dotfiles, coming soon | [Code] (ai-ide) |
+6. **Demo**: Presentation templates to various stakeholders
+7. **Scale**: Translate successful prototypes to production languages
 
-### Standout Implementations
+### Standout MCP Implementations - June 9th to June 15 2025
 - **Figma MCP** - Just released, will change development workflows
 - **HubSpot MCP** - Game changer for sales teams
 - **AWS MCP Suite** - Comprehensive coordination platform
 - **Slack Integration** - Enterprise-ready chat interfaces
+Every week, I'll swap these out with some cool ones I saw that specific week
 
-## 🚀 Usage
+### Adding Content
+Please contribute if you can! Fork the repo or send me what you've got via email to: [awippl@owasp.org](mailto:awippl@owasp.org) 
 
-### Research Phase
-- Add new discoveries as markdown files in appropriate directories
-- Include source URLs, key features, and initial assessment
-- Tag with implementation priority and use case relevance
-
-### Implementation Phase
-- Document setup procedures, configurations, and integration notes
-- Record performance metrics and real-world usage results
-- Note any issues, workarounds, or optimization discoveries
-
-### Reference Phase
-- Maintain updated links and version information
-- Cross-reference related tools and alternatives
-- Keep implementation status current
-
-## 📝 Contributing to This Repository
-
-### Adding New Tools
-1. **Categorize**: Determine the appropriate directory structure
-2. **Document**: Create detailed markdown with:
-   - Tool description and primary use case
-   - Installation/setup instructions (if implemented)
+Ideas (not reqs) for your content:
+1. **Documention**: 
+   - Concept, Company, Tech, Tool etc. description and primary use case
+   - Installation/setup instructions
    - Key features and capabilities
    - Pros/cons from evaluation
    - Implementation status and notes
-3. **Link**: Update this README if new directories are created
-4. **Cross-reference**: Link to related tools in dev-tools or sec-tools repos
+2. **Link (optional)**: Update this README if doing a pull request
 
-### File Naming Convention
+### Guidelines
+**File Naming**
 - Use descriptive, lowercase filenames with hyphens
 - Include version numbers for version-specific documentation
 - Group related tools in subdirectories when appropriate
-
-### Documentation Standards
-- Include source URLs and documentation links
+**Documentation** 
 - Add implementation date and last updated information
 - Document dependencies and requirements
-- Note any security considerations or limitations
+- Extra points for personal experiences that could save others' time
+- Note any applicable regulatory, privacy, and/or security considerations or limitations
+- Include linked text in brackets followed by URL in parans for external links.  Internal links are optional
+
+```
+[dsiplay text](URL)
+```
 
 ---
 
-*This repository represents hands-on experience with AI tools, not just bookmarks. Each entry includes real implementation notes and personal recommendations based on actual usage.*
+*This repository represents resources to AI tools.  To get it started, I generated a lot of content using AI, so if you see something that is incorrect, please drop me a note!*
